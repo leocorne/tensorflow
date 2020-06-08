@@ -149,17 +149,17 @@ def create_model(fingerprint_input, model_settings, model_architecture,
   elif model_architecture == 'tiny_conv_1stride': # To do (maybe)
     return create_tiny_conv_1stride_model(fingerprint_input, model_settings,
                                             is_training)
-  elif model_architecture == 'tiny_conv_16filters': # Doing
+  elif model_architecture == 'tiny_conv_16filters': # Done (good score)
     return create_tiny_conv_16filters_model(fingerprint_input, model_settings,
                                             is_training)
   elif model_architecture == 'tiny_conv_32filters': # To do (but too big)
     return create_tiny_conv_32filters_model(fingerprint_input, model_settings,
                                             is_training)
-  elif model_architecture == 'tiny_conv_3layer': # To do
+  elif model_architecture == 'tiny_conv_3layer': # To do on bird
     return create_tiny_conv_3layer_model(fingerprint_input, model_settings,
                                             is_training)
 
-  elif model_architecture == 'tiny_tiny_deep_pooling': # To do
+  elif model_architecture == 'tiny_deep_pooling': # To do
     return create_tiny_deep_pooling_model(fingerprint_input, model_settings,
                                             is_training)
                                                                                     
